@@ -1,0 +1,17 @@
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.csproj.AssemblyReference.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.AssemblyInfoInputs.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.AssemblyInfo.cs
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.csproj.CoreCompileInputs.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Presentation.deps.json
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Presentation.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Presentation.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Contracts.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Services.Abstractions.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Services.Abstractions.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/bin/Release/net5.0/Contracts.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.csproj.CopyComplete
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/refint/Presentation.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/Presentation.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/obj/Release/net5.0/ref/Presentation.dll

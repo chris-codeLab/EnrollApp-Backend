@@ -1,4 +1,5 @@
 ﻿using System;
+using AutoMapper;
 using Domain.Repositories;
 using Services.Abstractions;
 
@@ -6,17 +7,16 @@ namespace Services
 {
     public sealed class ServiceManager : IServiceManager
     {
-        private readonly Lazy<IOwnerService> _lazyOwnerService;
-        private readonly Lazy<IAccountService> _lazyAccountService;
+        private readonly Lazy<ISubjectServices> _lazySubjectService;
 
-        public ServiceManager(IRepositoryManager repositoryManager)
+
+
+        public ServiceManager(IRepositoryManager repositoryManager, IMapper mapper)
         {
-            _lazyOwnerService = new Lazy<IOwnerService>(() => new OwnerService(repositoryManager));
-            _lazyAccountService = new Lazy<IAccountService>(() => new AccountService(repositoryManager));
+            _lazySubjectService = new Lazy<ISubjectServices>(() => new SubjectService(repositoryManager, mapper));
         }
 
-        public IOwnerService OwnerService => _lazyOwnerService.Value;
+        public ISubjectServices SubjectService => _lazySubjectService.Value;
 
-        public IAccountService AccountService => _lazyAccountService.Value;
     }
 }

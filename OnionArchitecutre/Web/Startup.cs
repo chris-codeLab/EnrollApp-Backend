@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Persistence;
 using Persistence.Repositories;
+using Persistence.Seed;
 using Services;
 using Services.Abstractions;
 using Web.Middleware;
@@ -32,7 +33,7 @@ namespace Web
 
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
-            services.AddDbContextPool<RepositoryDbContext>(builder =>
+            services.AddDbContextPool<EnrollAppContext>(builder =>
             {
                 var connectionString = Configuration.GetConnectionString("Database");
 
@@ -50,7 +51,11 @@ namespace Web
 
                 app.UseSwagger();
 
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web v1"));
+                app.UseSwaggerUI(c => 
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                    c.RoutePrefix = string.Empty;
+                });
             }
 
             app.UseMiddleware<ExceptionHandlingMiddleware>();

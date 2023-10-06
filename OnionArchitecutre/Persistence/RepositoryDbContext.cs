@@ -2,20 +2,17 @@
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Persistence
-{
-    public sealed class RepositoryDbContext : DbContext
+    namespace Persistence.Seed
     {
-        public RepositoryDbContext(DbContextOptions options)
-            : base(options)
+        public class EnrollAppContext : DbContext
         {
+            public EnrollAppContext(DbContextOptions<EnrollAppContext> options) : base(options) { }
+            public DbSet<Student>? Students { get; set; }
+            public DbSet<Subject>? Subjects { get; set; }
+
+            protected override void OnModelCreating(ModelBuilder modelBuilder)
+                {
+                    SubjectDbInitializer.Seed(modelBuilder);
+                }
         }
-
-        public DbSet<Owner> Owners { get; set; }
-
-        public DbSet<Account> Accounts { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder) =>
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(RepositoryDbContext).Assembly);
     }
-}

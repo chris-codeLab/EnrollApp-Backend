@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Persistence;
+using Persistence.Seed;
 
 namespace Web
 {
@@ -23,7 +24,7 @@ namespace Web
         {
             using var scope = serviceProvider.CreateScope();
 
-            await using RepositoryDbContext dbContext = scope.ServiceProvider.GetRequiredService<RepositoryDbContext>();
+            await using EnrollAppContext dbContext = scope.ServiceProvider.GetRequiredService<EnrollAppContext>();
 
             await dbContext.Database.MigrateAsync();
         }
