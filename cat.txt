@@ -1,0 +1,16 @@
+
+├── Controllers
+├── Data
+├── Models
+├── NetCoreApi.Tests
+│   ├── NetCoreApi.Tests.csproj
+│   ├── UnitTest1.cs
+│   ├── Usings.cs  
+├── NetCoreApi.csproj
+├── NetCoreApi.sln
+├── Program.cs
+├── Properties
+├── Dockerfile
+├── appsettings.Development.json
+├── appsettings.json
+├── bin

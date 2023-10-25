@@ -1,0 +1,15 @@
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/bin/Release/net5.0/Services.Abstractions.deps.json
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/bin/Release/net5.0/Services.Abstractions.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/bin/Release/net5.0/Services.Abstractions.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/bin/Release/net5.0/Contracts.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/bin/Release/net5.0/Contracts.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.csproj.AssemblyReference.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.AssemblyInfoInputs.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.AssemblyInfo.cs
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.csproj.CoreCompileInputs.cache
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.csproj.CopyComplete
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/refint/Services.Abstractions.dll
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/Services.Abstractions.pdb
+/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/Release/net5.0/ref/Services.Abstractions.dll
