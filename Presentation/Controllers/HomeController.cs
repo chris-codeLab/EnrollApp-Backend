@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using webapi.Models;
+using Microsoft.Extensions.Logging;
+using Domain.Entities;
 
 namespace webapi.Controllers;
 

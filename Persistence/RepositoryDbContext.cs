@@ -1,8 +1,9 @@
 ﻿using System.Reflection;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Persistence.Seed;
 
-    namespace Persistence.Seed
+    namespace Persistence
     {
         public class EnrollAppContext : DbContext
         {

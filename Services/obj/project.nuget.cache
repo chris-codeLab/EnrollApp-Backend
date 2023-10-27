@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FMCTK5IYs7v3HQmPvJPHtKh5lF+VFJSqfj2msL4JAt59jfI2vtWB7OYjr8kmpNqG0YYr7oANd6PBn9KcV7wv3w==",
+  "dgSpecHash": "gSgHHQcC/GE0PrrVFPGx5okLAhbMSHXMLhYXtWtLDhoSQEkH7RKAMrRETtVJ7ISrvM/6txYHY3gzwtDrLgALow==",
   "success": true,
-  "projectFilePath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Services/Services.csproj",
+  "projectFilePath": "/workspaces/EnrollApp-Backend/Services/Services.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/mapster/7.2.0/mapster.7.2.0.nupkg.sha512",
@@ -168,9 +168,7 @@
     "/home/codespace/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

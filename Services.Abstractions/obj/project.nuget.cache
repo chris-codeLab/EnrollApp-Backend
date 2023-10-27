@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F1sWBUv40imwE9Wg70aXunLKr90WDxP1RDd1D4Qh86c9IZKoUHIfI9EybEGLK4cXyIVWdhMwO43r8pnZSqkuyw==",
+  "dgSpecHash": "2nx0ZADsqYSisNPiFtl/hp+HZu41KiMnjl62Pz0OsTSnbtD+ZivknxRZsZhCQQ5TwoPdU7jXlyHi991kKzeIFA==",
   "success": true,
-  "projectFilePath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/Services.Abstractions.csproj",
+  "projectFilePath": "/workspaces/EnrollApp-Backend/Services.Abstractions/Services.Abstractions.csproj",
   "expectedPackageFiles": [
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -165,9 +165,7 @@
     "/home/codespace/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

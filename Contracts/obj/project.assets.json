@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net7.0": {
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -6160,7 +6160,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net7.0": [
       "Microsoft.AspNetCore.Mvc >= 2.2.0"
     ]
   },
@@ -6170,24 +6170,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Contracts/Contracts.csproj",
+      "projectUniqueName": "/workspaces/EnrollApp-Backend/Contracts/Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Contracts/Contracts.csproj",
+      "projectPath": "/workspaces/EnrollApp-Backend/Contracts/Contracts.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Contracts/obj/",
+      "outputPath": "/workspaces/EnrollApp-Backend/Contracts/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -6198,8 +6198,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
@@ -6217,16 +6217,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

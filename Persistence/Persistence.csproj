@@ -16,6 +16,8 @@
   <ItemGroup>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.6" />
   </ItemGroup>
+  
+  
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />

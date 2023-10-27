@@ -1,3 +1,15 @@
+using Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Npgsql;
+using Persistence;
+using Persistence.Repositories;
+using Services;
+using Services.Abstractions;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.AspNetCore.OpenApi;
+using Microsoft.OpenApi.Models;
+using Web.Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -29,10 +41,15 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
     app.UseMiddleware<ExceptionHandlingMiddleware>();
-    app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web v1"));
 
 }
+
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    { 
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web v1");
+        c.RoutePrefix = String.Empty;
+    });
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

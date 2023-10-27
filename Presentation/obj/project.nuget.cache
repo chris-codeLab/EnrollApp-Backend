@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cU0PMvIwD8e62yes6GuyrlsouyV82YpKsBr46cPmC5TebXiHYgZTgeaByGL+CpOAABerKeHpqD6Ta6Rr9mcwag==",
+  "dgSpecHash": "nOK16mR/FC9CrWO5NDMa6TU5Iskn78X2euypbso/Xdp7p2dAVAuIqAOjxGaaouw5NNN9JnNoZ2LVVzQc9kFxFw==",
   "success": true,
-  "projectFilePath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Presentation/Presentation.csproj",
+  "projectFilePath": "/workspaces/EnrollApp-Backend/Presentation/Presentation.csproj",
   "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -49,7 +50,7 @@
     "/home/codespace/.nuget/packages/microsoft.codeanalysis.common/2.8.0/microsoft.codeanalysis.common.2.8.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.codeanalysis.csharp/2.8.0/microsoft.codeanalysis.csharp.2.8.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.codeanalysis.razor/2.2.0/microsoft.codeanalysis.razor.2.2.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.dotnet.platformabstractions/2.1.0/microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.abstractions/2.2.0/microsoft.extensions.caching.abstractions.2.2.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.caching.memory/2.2.0/microsoft.extensions.caching.memory.2.2.0.nupkg.sha512",
@@ -165,9 +166,7 @@
     "/home/codespace/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "/home/codespace/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

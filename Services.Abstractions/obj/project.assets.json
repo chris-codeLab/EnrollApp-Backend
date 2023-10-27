@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net7.0": {
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2474,7 +2474,7 @@
       },
       "Contracts/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "2.2.0"
         },
@@ -6177,7 +6177,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net7.0": [
       "Contracts >= 1.0.0"
     ]
   },
@@ -6187,27 +6187,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/Services.Abstractions.csproj",
+      "projectUniqueName": "/workspaces/EnrollApp-Backend/Services.Abstractions/Services.Abstractions.csproj",
       "projectName": "Services.Abstractions",
-      "projectPath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/Services.Abstractions.csproj",
+      "projectPath": "/workspaces/EnrollApp-Backend/Services.Abstractions/Services.Abstractions.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Services.Abstractions/obj/",
+      "outputPath": "/workspaces/EnrollApp-Backend/Services.Abstractions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "/workspaces/EnrollApp-Backend/OnionArchitecutre/Contracts/Contracts.csproj": {
-              "projectPath": "/workspaces/EnrollApp-Backend/OnionArchitecutre/Contracts/Contracts.csproj"
+            "/workspaces/EnrollApp-Backend/Contracts/Contracts.csproj": {
+              "projectPath": "/workspaces/EnrollApp-Backend/Contracts/Contracts.csproj"
             }
           }
         }
@@ -6219,8 +6219,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -6232,16 +6232,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

@@ -1,0 +1,17 @@
+/EnrollApp-Backend/obj
+/EnrollApp-Backend/bin
+/Contracts/obj
+/Contracts/bin
+/Entities/obj
+/Entities/bin
+/Services/obj
+/Services/bin
+/Services.Abstractions/obj
+/Services.Abstractions/bin
+/Domain/obj
+/Domain/bin
+/Persistance/obj
+/Persistance/bin
+/.vs/EnrollApp-Backend/v16
+/EnrollApp-Backend/*.user
+/.vs/EnrollApp-Backend/DesignTimeBuild/*.dtbcache

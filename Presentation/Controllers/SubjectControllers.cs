@@ -8,7 +8,7 @@ using Services.Abstractions;
 namespace Presentation.Controllers
 {
     [ApiController]
-    [Route("api/owners/{SubjectId:guid}/subjects")]
+    [Route("api/subject")]
     public class AccountsController : ControllerBase
     {
         private readonly IServiceManager _serviceManager;
@@ -23,7 +23,7 @@ namespace Presentation.Controllers
             return Ok(accountsDto);
         }
 
-        [HttpGet("{SubjectId:guid}")]
+        [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetSubjectById(Guid id, CancellationToken cancellationToken)
         {
             var accountDto = await _serviceManager.SubjectService.GetByIdAsync(id,  cancellationToken);
@@ -32,14 +32,14 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAccount(Guid id,  SubjectForCreationDto subjectForCreationDto, CancellationToken cancellationToken)
+        public async Task<IActionResult> CreateSubject(Guid id,  SubjectForCreationDto subjectForCreationDto, CancellationToken cancellationToken)
         {
             var subject = await _serviceManager.SubjectService.CreateAsync(subjectForCreationDto, id, cancellationToken);
 
-            return CreatedAtAction(nameof(GetSubjectById), new { ownerId = subject.SubjectId}, subject);
+            return CreatedAtAction(nameof(GetSubjectById), new { subjectId = subject.SubjectId}, subject);
         }
 
-        [HttpDelete("{SubjectId:guid}")]
+        [HttpDelete("{id:guid}")]
         public async Task<IActionResult> DeleteAccount(Guid id, CancellationToken cancellationToken)
         {
             await _serviceManager.SubjectService.DeleteAsync(id, cancellationToken);
