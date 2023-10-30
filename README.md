@@ -16,5 +16,4 @@ using to. Then run the following command: <pre>docker compose up --build</pre>
 
 ## Versions
 
-![EnrollApp-Images] (./Presentation/images/Captura desde 2023-10-30 18-50-41.png)
-
+ <img src="https://github.com/Gabriel-R285/EnrollApp-Backend/blob/main/Presentation/Images/Captura%20desde%202023-10-30%2018-50-41.png" alt="Girl in a jacket" width="1000" height="600"> 
